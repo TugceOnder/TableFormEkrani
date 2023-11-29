@@ -1,0 +1,374 @@
+
+
+<div class="container">
+<h3>Uygunsuzluk Raporu</h3>
+
+
+<table class="table table-bordered border-primary">
+ 
+  <div class="row row-cols-2 row-cols-lg-6 g-2 g-lg-3">
+    
+      <td>
+      <div class="col">
+        <label>Müşteri Şikayeti </label> 
+        <div class="p-3" >  <input type="checkbox" name="myCheckbox"></div>
+      </div>
+    </td>
+    <td>
+      <div class="col">
+        <label>Müşteri tarafından tespit edilen uygunsuzluk</label>
+        <div class="p-3" >  <input type="checkbox" name="myCheckbox" ></div>
+      </div>
+    </td>
+    <td>
+      <div class="col">
+        <label>Üretim Uygunsuzluğu</label>
+        <div class="p-3" >  <input type="checkbox" name="myCheckbox"></div>
+      </div>
+    </td>
+      <div class="col">
+        <label>Kalite Uygunsuzluğu</label>
+        <div class="p-3" >  <input type="checkbox" name="myCheckbox" ></div>
+      </div>
+      <td>
+      <div class="col">
+        <label>Tasarım Arge Uygunsuzluğu</label>
+        <div class="p-3" >  <input type="checkbox" name="myCheckbox"></div>
+      </div>
+    </td>
+      <td>
+      <div class="col">
+        <label>Sistem Uygunsuzluğu/Diğer</label>
+        <div class="p-3" >  <input type="checkbox" name="myCheckbox" ></div>
+      </div>
+    </td>
+
+    </div>
+
+
+  <div  class="row row-cols-2 row-cols-lg-3 g-2 g-lg-3">
+    <td>
+    <div class="col">
+      
+         <label>Sipariş Numarası</label> 
+         <input type="text"  id="siparisnumarasi" name="siparisnumarasi" oninput="this.value = this.value.replace(/[^0-9]/g, '');">
+        </div>
+      </td>
+      <td>
+        <div class="col">
+       <label>Proje Numarası</label> 
+       <input type="number" id="projenumber" name="projenumber" oninput="this.value = this.value.replace(/[^0-9]/g, '');">
+        </div>
+      </td>
+      <td>
+        <div class="col">
+      <label> Uygunsuzluk No</label>
+      <input type="number" id="uygunsuzluknumber" name="uygunsuzluknumber" oninput="this.value = this.value.replace(/[^0-9]/g, '');">
+        </div>
+      </td>
+        </div>
+
+        
+  <div  class="row row-cols-2 row-cols-lg-3 g-2 g-lg-3">
+    <td>
+    <div class="col">
+      
+         <label>İş Emri No</label> 
+         <input type="text"  id="isemrinumarasi" name="isemrinumarasi" oninput="this.value = this.value.replace(/[^0-9]/g, '');">
+        </div>
+      </td>
+      <td>
+        <div class="col">
+       <label>Parça Numarası</label> 
+       <input type="number" id="parcanumber" name="parcanumber" oninput="this.value = this.value.replace(/[^0-9]/g, '');">
+        </div>
+      </td>
+      <td>
+        <div class="col">
+      <label> Uygunsuzluk Tarihi</label>
+      <input type="date" id="tarih" name="uygunsuzluknumber">
+        </div>
+      </td>
+        </div>
+
+               
+  <div  class="row row-cols-12 row-cols-lg-3 g-2 g-lg-3">
+    <td>
+    <div >
+
+         <label class="form-label" >Parça Revisyon No</label> 
+         
+        </div>
+        <div class="col-lg-4">
+          <input type="text"  id="parcarevisyonnumarasi" name="parcarevisyonnumarasi" oninput="this.value = this.value.replace(/[^0-9]/g, '');">
+        </div>
+      </td>
+      <td>
+        <div class="col-lg-4">
+       <label>Uygunsuzluğun Tespit Edildiği İş Merkezi/Tezgah No</label> 
+       <input type="text" id="parcanumber" name="parcanumber" oninput="this.value = this.value.replace(/[^0-9]/g, '');">
+        </div>
+      </td>
+      <td>
+        <div class="col-lg-4">
+      <label> Uygunsuzluğun Tespit Edildiği Operasyon No</label>
+      <input type="text" id="tarih" name="uygunsuzluknumber"  oninput="this.value = this.value.replace(/[^0-9]/g, '');">
+        </div>
+      </td>
+        </div>
+
+   <div  class="row row-cols-2 row-cols-lg-3 g-2 g-lg-3">
+          <td>
+          <div class="col">
+            
+               <label>Üretim Adedi</label> 
+               <input type="text"  id="isemrinumarasi" name="isemrinumarasi" oninput="this.value = this.value.replace(/[^0-9]/g, '');">
+              </div>
+            </td>
+            <td>
+              <div class="col">
+             <label>Kabul Adet</label> 
+             <input type="text" id="uretimadedi" name="uretimadedi" oninput="this.value = this.value.replace(/[^0-9]/g, '');">
+              </div>
+            </td>
+            <td>
+              <div class="col">
+            <label> Uygunsuz Adet</label>
+            <input type="text" id="tarih" name="uygunsuzluknumber" oninput="this.value = this.value.replace(/[^0-9]/g, '');"> 
+              </div>
+            </td>
+              </div>
+
+
+   <div  class="row row-cols-2 row-cols-lg-2 g-2 g-lg-3">
+                <td>
+                <div class="col">
+                  
+                     <label>Uygunsuzluğu gerçekleştiren personel bilgisi</label> 
+                     <input type="text"  id="uygunsuzlukpersonel" name="uygunsuzlukpersonel" oninput="this.value = this.value.replace(/[^0-9]/g, '');">
+                    </div>
+                  </td>
+                  <td>
+                    <div class="col">
+                   <label>Seri Numarası </label> 
+                   <input type="text" id="serinumarası" name="serinumarası" oninput="this.value = this.value.replace(/[^0-9]/g, '');">
+                    </div>
+                  </td>
+                    </div>
+  
+        <div  class="row row-cols-2 row-cols-lg-2 g-2 g-lg-3">
+          <td>
+          <div class="col">
+            
+               <label>Uygunsuzluğun  Tespit Edildiği Bölüm</label> 
+               <input type="text"  id="uygunsuzluktespit" name="uygunsuzluktespit" oninput="this.value = this.value.replace(/[^0-9]/g, '');">
+              </div>
+            </td>
+            <td>
+              <div class="col">
+             <label class="form-label">Müşteri Bilgisi </label> 
+             <input type="text" id="musterinumarası" name="musterinumarası" oninput="this.value = this.value.replace(/[^0-9]/g, '');">
+              </div>
+   </td>
+ </div>
+
+ <div  class="row row-cols-2 row-cols-lg-1 g-2 g-lg-3">
+  <td>
+  
+    <div style="text-align: center; margin-right: 30px;">
+       <label >Uygunsuzluk Tanımı</label> 
+     
+       <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+    </td>
+  </div>
+
+  <div class="row row-cols-2 row-cols-lg-2 ">
+    <td>
+      <div class="col">
+           <label style="text-align: center;">Uygunsuzluğun Tanımlayan/AD-SOYAD/IMZA/TARİH</label> 
+           <div class="input-group mb-3">
+            <br>
+           <input type="text"  id="uygunsuzluktanımlayanadsoyad" class="form-control" placeholder="Username" aria-label="Username" name="uygunsuzluktanımlayanadsoyad">
+           <span class="input-group-text"></span>
+           <input type="date" id="tarih" class="form-control" name="uygunsuzuktaniyantarih">
+          </div>
+        </div>
+        </td>
+        <td>
+          <label style="text-align: center;">Uygunsuzluğu Onaylayan /AD-SOYAD/IMZA/TARİH</label> 
+          <div class="input-group mb-3">
+  
+            <br>
+            <input type="text" id ="uygunsuzluktanimlamayanadsoyad" class="form-control" placeholder="Username" aria-label="Username">
+            <span class="input-group-text"></span>
+            <input type="date" id ="uygunsuzluktanimlamayan" class="form-control" aria-label="Server">
+          </div>
+         </td>
+
+  </div>
+
+  <div  class="row row-cols-2 row-cols-lg-1 g-2 g-lg-3">
+    <td>
+    
+      <div style="text-align: center; margin-right: 30px;">
+         <label >İvedi Çözüm</label> 
+       
+         <textarea class="form-control" id="ivedicözüm" rows="1"></textarea>
+        </div>
+      </td>
+    </div>
+
+  <div  class="row row-cols-12 row-cols-lg-2 g-2 g-lg-3">
+    <td>
+    <div >
+
+         <label class="form-label" >İvedi Çözümü Belirleyen/Ad-soyad/imza tarih</label> 
+         
+        </div>
+        <div class="col">
+        </div>
+      </td>
+      <td>
+        <div class="col">
+          <div class="input-group mb-3">
+            <br>
+           <input type="text"  id="uygunsuzluktanımlayanadsoyad" class="form-control" placeholder="Username" aria-label="Username" name="uygunsuzluktanımlayanadsoyad">
+           <span class="input-group-text"></span>
+           <input type="date" id="tarih" class="form-control" name="uygunsuzuktaniyantarih">
+          </div>
+        
+        </div>
+      </td>
+        </div>
+        <div class="row row-cols-2 row-cols-lg-2 ">
+          <td>
+            <div class="col">
+                 <label style="text-align: center;">Uygunsuzluk Kodu ve Açıklması</label> 
+                 <div class="input-group mb-3">
+                  <textarea class="form-control" id="ivedicözüm" rows="1"></textarea>
+                </div>
+              </div>
+              </td>
+              <td>
+                <body>
+
+                  <label style="text-align: center;">Müşteri Malzemesi Mi?</label>
+                
+                  <div class="checkbox row row-cols-2 row-cols-lg-2" >
+                    <div class="col">
+                      <label style="text-align: center;">Evet</label>
+                      <input type="checkbox" id="evetcheckbox" name="evetcheckbox">
+                    </div>
+                    <div class="col">
+                      <label style="text-align: center;">Hayır</label>
+                      <input type="checkbox" id="hayırcheckbox" name="hayırcheckbox">
+                    </div>
+                </div>
+                </body>
+            
+               </td>
+      
+        </div>
+
+     
+              <div class="row row-cols-2 row-cols-lg-2 ">
+                <td>
+                  <div class="col">
+                       <label style="text-align: center;">Kalite güvence yöneticisi /Yönetim Temsilcisi kararır</label> 
+                       <div class="input-group mb-3">
+                        <textarea class="form-control" id="kalitegüvence" rows="1"></textarea>
+                      </div>
+                    </div>
+                    </td>
+                    <td>
+                      <body>
+      
+                        <label style="text-align: center;">DF Faaliyet Gerekli mi?</label>
+                      
+                        <div class="checkbox row row-cols-2 row-cols-lg-2" >
+                          <div class="col">
+                            <label style="text-align: center;">Evet</label>
+                            <input type="checkbox" id="evetcheckbox" name="evetcheckbox">
+                          </div>
+                          <div class="col">
+                            <label style="text-align: center;">Hayır</label>
+                            <input type="checkbox" id="hayırcheckbox" name="hayırcheckbox">
+                          </div>
+                      </div>
+                      </body>
+                  
+                     </td>
+              </div>
+
+              <div  class="row row-cols-2 row-cols-lg-1 g-2 g-lg-3">
+                <td>
+                
+                  <div style="text-align: center; margin-right: 30px;">
+                     <label>Uygunsuzluğun Giderilmesi İçin yapılması planlanılan Faaliyet</label> 
+                   
+                     <textarea class="form-control" id="uygunsuzluğungiderilmesiyapıla" rows="3"></textarea>
+                    </div>
+                  </td>
+                </div>
+
+
+
+                <div class="row row-cols-2 row-cols-lg-2 ">
+                  <td>
+                    <div class="col">
+                         <label style="text-align: center;">Faaliyeti Yapacak sorumlu/ad-soyad/isim/imza tarih</label> 
+                         <div class="input-group mb-3">
+                          <br>
+                         <input type="text"  id="uygunsuzluktanımlayanadsoyad" class="form-control" placeholder="Username" aria-label="Username" name="uygunsuzluktanımlayanadsoyad">
+                         <span class="input-group-text"></span>
+                         <input type="date" id="tarih" class="form-control" name="uygunsuzuktaniyantarih">
+                        </div>
+                      </div>
+                      </td>
+                      <td>
+                        <label style="text-align: center;">Onaylayan Birim Amiri /AD-SOYAD/IMZA/TARİH</label> 
+                        <div class="input-group mb-3">
+                
+                          <br>
+                          <input type="text" id ="uygunsuzluktanimlamayanadsoyad" class="form-control" placeholder="Username" aria-label="Username">
+                          <span class="input-group-text"></span>
+                          <input type="date" id ="uygunsuzluktanimlamayan" class="form-control" aria-label="Server">
+                        </div>
+                       </td>
+              
+                </div>
+               <div  class="row row-cols-2 row-cols-lg-1 g-2 g-lg-3">
+                <td>
+                
+                  <div style="text-align: center; margin-right: 30px;">
+                     <label>Denetim Sonucu</label> 
+                   
+                     <textarea class="form-control" id="uygunsuzluğungiderilmesiyapıla" rows="3"></textarea>
+                    </div>
+                  </td>
+                </div>
+
+  <div  class="row row-cols-12 row-cols-lg-2 g-2 g-lg-3">
+    <td>
+    <div >
+
+         <label class="form-label" >Uygunsuzluğu Tespit Eden Sorumlu/Ad-Soyad/isim/İmza/Tarih</label> 
+         
+        </div>
+        <div class="col">
+        </div>
+      </td>
+      <td>
+        <div class="col">
+          <div class="input-group mb-3">
+            <br>
+           <input type="text"  id="uygunsuzluktanımlayanadsoyad" class="form-control" placeholder="Username" aria-label="Username" name="uygunsuzluktanımlayanadsoyad">
+           <span class="input-group-text"></span>
+           <input type="date" id="tarih" class="form-control" name="uygunsuzuktaniyantarih">
+          </div>
+        
+        </div>
+      </td>
+        </div>
+</table>

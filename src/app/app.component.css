@@ -1,0 +1,7 @@
+
+table, th, td {
+    border:1px solid black;
+  }
+  .col label {
+    margin-right: 10px; /* Veya istediğiniz boşluk miktarı */
+}
